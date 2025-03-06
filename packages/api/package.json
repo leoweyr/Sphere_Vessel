@@ -1,0 +1,34 @@
+{
+  "name": "@sphere-vessel/api",
+  "version": "0.0.0",
+  "description": "Core API for the Sphere Vessel ecosystem. Type-Safe interfaces to build Reality-Based applications and framework extensions with full TypeScript support.",
+  "bugs": "https://github.com/leoweyr/Sphere_Vessel/issues",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist coverage",
+    "compile": "tsc",
+    "test": "jest --coverage",
+    "build": "npm run clean && npm run compile"
+  },
+  "keywords": [
+    "sphere-vessel",
+    "api",
+    "type-safety",
+    "typescript",
+    "reality",
+    "framework-extensions",
+    "game-backend",
+    "metaverse"
+  ],
+  "author": "leoweyr <contact@leoweyr.com>",
+  "license": "LGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leoweyr/Sphere_Vessel.git",
+    "directory": "packages/api"
+  }
+}

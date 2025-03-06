@@ -1,0 +1,31 @@
+{
+  "name": "@sphere-vessel/core",
+  "version": "0.0.0",
+  "description": "A component-based framework for constructing virtual world server systems through extensible modules and composable orchestration. Designed as a lightweight runtime and deployed on grassroots servers, it enables centralized coordination and distributed management of virtual world instances scattered across isolated partitions within a single host machine.",
+  "bugs": "https://github.com/leoweyr/Sphere_Vessel/issues",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist coverage",
+    "compile": "tsc",
+    "test": "jest --coverage",
+    "build": "npm run clean && npm run compile"
+  },
+  "keywords": [
+    "virtual-world",
+    "server-framework",
+    "component-based",
+    "extensible-modules",
+    "composable-orchestration",
+    "lightweight-runtime",
+    "centralized-coordination",
+    "distributed-management",
+    "game-backend",
+    "metaverse"
+  ],
+  "author": "leoweyr <contact@leoweyr.com>",
+  "license": "LGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leoweyr/Sphere_Vessel.git"
+  }
+}
