@@ -13,8 +13,8 @@
     "clean": "rimraf dist coverage",
     "compile": "tsc",
     "test": "jest --coverage",
-    "build": "npm run clean && npm run compile",
-    "deploy": "npm run build && npm run test && npm publish"
+    "build": "yarn clean && yarn compile",
+    "deploy": "yarn build && yarn test && yarn publish --access=public"
   },
   "keywords": [
     "sphere-vessel",
