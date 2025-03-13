@@ -1,18 +1,20 @@
 {
   "name": "@sphere-vessel/api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Core API for the Sphere Vessel ecosystem. Type-Safe interfaces to build Reality-Based applications and framework extensions with full TypeScript support.",
   "bugs": "https://github.com/leoweyr/Sphere_Vessel/issues",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "clean": "rimraf dist coverage",
     "compile": "tsc",
     "test": "jest --coverage",
-    "build": "npm run clean && npm run compile"
+    "build": "npm run clean && npm run compile",
+    "deploy": "npm run build && npm run test && npm publish"
   },
   "keywords": [
     "sphere-vessel",
